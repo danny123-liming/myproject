@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSDN个人主页</title>
+    <!-- 引入外部样式 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 可选：引入字体图标（模拟CSDN图标） -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/csdn_logo.png" alt="CSDN logo" width="100">
+            </div>
+            <div class="nav">
+                <a href="#" class="nav-item">首页</a>
+                <a href="#" class="nav-item">博客</a>
+                <a href="#" class="nav-item">问答</a>
+                <a href="#" class="nav-item">学习</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="搜索文章/博主/话题" class="search-input">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主体内容区 -->
+    <main class="main-container">
+        <!-- 左侧个人信息栏 -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="avatar">
+                    <img src="images/avatar.jpg" alt="个人头像">
+                </div>
+                <h2 class="username">编程新手王某</h2>
+                <p class="signature">专注Java/前端学习，记录成长点滴</p>
+                <div class="profile-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">128</span>
+                        <span class="stat-text">文章</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">5.2w</span>
+                        <span class="stat-text">阅读</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">860</span>
+                        <span class="stat-text">粉丝</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-nav">
+                <a href="#" class="sidebar-nav-item"><i class="fas fa-home"></i> 主页</a>
+                <a href="#" class="sidebar-nav-item"><i class="fas fa-file-alt"></i> 文章</a>
+                <a href="#" class="sidebar-nav-item"><i class="fas fa-star"></i> 收藏</a>
+                <a href="#" class="sidebar-nav-item"><i class="fas fa-user-friends"></i> 粉丝</a>
+            </div>
+        </aside>
+
+        <!-- 右侧内容区（文章列表） -->
+        <section class="content">
+            <div class="content-header">
+                <h3>我的文章</h3>
+                <a href="#" class="filter-btn">最新发布</a>
+            </div>
+
+            <!-- 文章列表 -->
+            <div class="article-list">
+                <!-- 文章项（点击标题跳转到article.html） -->
+                <div class="article-item">
+                    <div class="article-title">
+                        <a href="article.html">【入门必看】HTML+CSS快速上手CSDN页面还原</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="meta-item">2025-12-11</span>
+                        <span class="meta-item"><i class="fas fa-eye"></i> 1258</span>
+                        <span class="meta-item"><i class="fas fa-comment"></i> 36</span>
+                    </div>
+                    <div class="article-desc">
+                        本文详细讲解如何用HTML和CSS还原CSDN个人主页布局，包含页面跳转、样式还原等核心知识点，适合前端新手学习。
+                    </div>
+                </div>
+
+                <div class="article-item">
+                    <div class="article-title">
+                        <a href="article.html">Netlify部署静态网页超详细步骤</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="meta-item">2025-12-10</span>
+                        <span class="meta-item"><i class="fas fa-eye"></i> 896</span>
+                        <span class="meta-item"><i class="fas fa-comment"></i> 24</span>
+                    </div>
+                    <div class="article-desc">
+                        从注册账号到拖拽上传文件夹，手把手教你把本地HTML页面部署到Netlify，让你的网页被全网访问。
+                    </div>
+                </div>
+
+                <div class="article-item">
+                    <div class="article-title">
+                        <a href="article.html">CSS布局技巧：Flex实现CSDN主页响应式</a>
+                    </div>
+                    <div class="article-meta">
+                        <span class="meta-item">2025-12-09</span>
+                        <span class="meta-item"><i class="fas fa-eye"></i> 1560</span>
+                        <span class="meta-item"><i class="fas fa-comment"></i> 42</span>
+                    </div>
+                    <div class="article-desc">
+                        详解Flex布局在CSDN页面还原中的应用，实现侧边栏+内容区的自适应布局，兼容不同屏幕尺寸。
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部版权栏 -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 编程新手王某 - CSDN个人主页 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

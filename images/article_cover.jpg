@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1989fa"/>
+  <text x="400" y="180" font-family="Microsoft Yahei, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">HTML + CSS</text>
+  <text x="400" y="250" font-family="Microsoft Yahei, sans-serif" font-size="28" fill="white" text-anchor="middle">CSDN Personal Page Tutorial</text>
+</svg>
